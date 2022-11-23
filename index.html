@@ -10,14 +10,16 @@
 <body>
 
     <div class="container">
-         <input class="value" type="text" name="txt" readonly="true" id="output">
+        <div class="calculator">
+        
+        <input class="value" type="text" name="txt" readonly="true" id="output">
         <div class="buttons">
             
             <button value="C" class="clear">C</button>
             <button onclick="display('(')" value="(">(</button>
             <button onclick="display(')')" value=")">)</button>
             <button onclick="display('/')" value="/">/</button>
-           
+            
 
             <button onclick="display('9')" value="9">9</button>
             <button onclick="display('8')" value="8">8</button>
@@ -27,7 +29,7 @@
             <button onclick="display('6')" value="6">6</button>
             <button onclick="display('5')" value="5">5</button>
             <button onclick="display('4')" value="4">4</button>
-
+            
             
             <button onclick="display('*')" value="*">*</button>
             
@@ -41,14 +43,16 @@
             <button onclick="display('0')" value="0">0</button>
             <button onclick="display('00')" value="00">00</button>
             <button onclick="display('.')" value=".">.</button>
-
+            
             
 
             <button value="=" class="equal">=</button>
         
         </div>
-
+        
+        </div>
     </div>
+
     
     <script src="/Js/code.js"></script>
 </body>

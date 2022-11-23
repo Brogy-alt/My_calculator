@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.buttons {
+.buttons  {
 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -18,10 +18,11 @@ button {
     padding: 30px;
     font-size: larger;
     
+    
 }
 
 .clear{
-    background-color: rgb(180, 19, 19);
+    background-color: rgb(18, 82, 150);
 }
 
 .equal {
@@ -36,27 +37,21 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
-    
-
+    background-image: linear-gradient(to right, rgb(34, 105, 203), rgba(255,0,0,1));
 }
 
 input{
     padding: 15px;
     width: 100%;
     background-color: whitesmoke;
+    border-radius: 5px;
     
-}
-
-
-.container {
-    border-radius: 10opx;
 }
 
 
 
 @media screen (min-width: 300px;) {
-    .container {
+    section{
         width:100%;
         margin:auto;
     }body {
