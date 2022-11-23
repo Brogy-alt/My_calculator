@@ -26,8 +26,9 @@ body {
     background-color:#1111 ;
 }
 
-.window {
-    padding: 35px;
+input{
+    padding: 15px;
+    width: 100%;
     background-color: whitesmoke;
 }
 
