@@ -17,7 +17,6 @@ equalBtn.addEventListener('click', ()=>{
 const clearBtn = document.querySelector(".clear");
 clearBtn.addEventListener('click', ()=>{
     if (output !== ''){
-        // calculate if the is a value in the screen
         output.value = "";
     }
 })
