@@ -11,22 +11,25 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
-    
+        
 }
 
 button {
     padding: 30px;
     font-size: larger;
-    
-    
+    border-radius: 6%;
+ 
 }
 
+
 .clear{
-    background-color: rgb(18, 82, 150);
+    background-color: rgb(180, 19, 19);
+    color: white;
 }
 
 .equal {
-    background-color: rgb(180, 19, 19);
+    background-color: rgb(18, 82, 150);
+    color: white;
 
 }
 
