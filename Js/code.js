@@ -24,7 +24,7 @@ clearBtn.addEventListener('click', ()=>{
 const dotbtn = document.querySelector(".dot");
 dotbtn.addEventListener = ('click', ()=>{
     if (output === '.'){
-        output.value = "."
+        output.value = ".."
     }else (output.value = '')
         
     }) 
