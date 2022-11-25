@@ -38,12 +38,23 @@ button:hover{
 
 }
 
+.clear:hover{
+    transform: scale(1.1);
+    background-color: rgb(180, 19, 19);
+}
+
+.equal:hover{
+    transform: scale(1.1);
+    background-color: rgb(18, 82, 150);
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-image: linear-gradient(to right, rgb(34, 105, 203), rgba(255,0,0,1));
+    
 }
 
 input{
@@ -54,12 +65,10 @@ input{
     
 }
 
-@media screen (min-width: 300px;) {
-    section{
-        width:100%;
-        margin:auto;
+@media screen (min-width: 300px;) {    
     }body {
         width:100%;
+        margin:auto;
     }
     
 
