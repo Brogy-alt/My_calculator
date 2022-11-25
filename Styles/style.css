@@ -69,14 +69,12 @@ img {
 }
 
 
-    
-
-
 input{
-    padding: 15px;
+    height: 55px;
     width: 100%;
     background-color: whitesmoke;
     border-radius: 5px;
+    font-size:x-large;
     
     
 }
