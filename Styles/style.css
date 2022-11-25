@@ -17,10 +17,15 @@
 button {
     padding: 30px;
     font-size: larger;
-    border-radius: 6%;
- 
+    border-radius: 3%;
+    
 }
 
+
+button:hover{
+    background-color: rgb(176, 173, 173);
+    transition: 1s;
+}
 
 .clear{
     background-color: rgb(180, 19, 19);
@@ -32,8 +37,6 @@ button {
     color: white;
 
 }
-
-
 
 body {
     display: flex;
@@ -50,8 +53,6 @@ input{
     border-radius: 5px;
     
 }
-
-
 
 @media screen (min-width: 300px;) {
     section{
