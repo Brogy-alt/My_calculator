@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
 *,
 *::after,
 *::before{
@@ -5,6 +7,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 
 body {
     overflow: hidden;
@@ -34,11 +37,16 @@ button:hover{
 .clear{
     background-color: rgb(180, 19, 19);
     color: white;
+    font-family: 'Play', sans-serif;
+    font-size: x-large;
+
 }
 
 .equal {
     background-color: rgb(18, 82, 150);
     color: white;
+    font-family: 'Play', sans-serif;
+    font-size: x-large;
 
 }
 
@@ -50,6 +58,36 @@ button:hover{
 .equal:hover{
     transform: scale(1.1);
     background-color: rgb(18, 82, 150);
+    
+}
+
+.bracket1 {
+    font-size: x-large;
+
+}
+
+.bracket2 {
+    font-size: x-large;
+}
+
+.plus{
+    font-size: x-large;
+}
+
+.divide{
+    font-size: x-large;
+}
+
+.multi{
+    font-size: x-large;
+}
+
+.sub{
+    font-size: x-large;
+}
+
+.decimal{
+    font-size: x-large;
 }
 
 body {
@@ -75,9 +113,14 @@ input{
     background-color: whitesmoke;
     border-radius: 5px;
     font-size:x-large;
+    text-align: right;
     
-  
+    
 }
+
+
+    
+
 
 .calculator {
     z-index: 10;

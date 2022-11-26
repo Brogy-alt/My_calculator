@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <img src="https://i.postimg.cc/xqDghCFC/clipart2086326.png" alt="daddy">
+    <img src="https://i.postimg.cc/xqDghCFC/clipart2086326.png" alt="img">
 
 
     <div class="calculator">
@@ -19,39 +19,39 @@
         <div class="buttons">
 
             <button value="AC" class="clear">AC</button>
-            <button onclick="display('(')" value="(">(</button>
-            <button onclick="display(')')" value=")">)</button>
-            <button onclick="display('/')" value="/">/</button>
+            <button class="bracket1" onclick="display('(')" value="(">(</button>
+            <button class="bracket2" onclick="display(')')" value=")">)</button>
+            <button class="divide" onclick="displayOp('/')" value="/">/</button>
 
 
             <button onclick="display('9')" value="9">9</button>
             <button onclick="display('8')" value="8">8</button>
             <button onclick="display('7')" value="7">7</button>
-            <button name="plus" onclick="display('+')" value="+">+</button>
+            <button class="plus" name="plus" onclick="displayOp('+')" value="+">+</button>
 
             <button onclick="display('6')" value="6">6</button>
             <button onclick="display('5')" value="5">5</button>
             <button onclick="display('4')" value="4">4</button>
 
 
-            <button onclick="display('*')" value="*">*</button>
+            <button class="multi" onclick="displayOp('*')" value="*">*</button>
 
             <button onclick="display('3')" value="3">3</button>
             <button onclick="display('2')" value="2">2</button>
 
             <button onclick="display('1')" value="1">1</button>
-            <button onclick="display('-')" value="-">-</button>
+            <button class="sub" onclick="displayOp('-')" value="-">-</button>
 
 
             <button onclick="display('0')" value="0">0</button>
             <button onclick="display('00')" value="00">00</button>
-            <button name="dot" onclick="display('.')" value=".">.</button>
+            <button name="dot" onclick="displayDecimal('.')" value=".">.</button>
             
             <button value="=" class="equal">=</button>
 
         </div>
 
-    </div>
+    </input>
 
 
     <script src="/Js/code.js"></script>
