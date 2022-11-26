@@ -31,6 +31,18 @@ clearBtn.addEventListener('click', ()=>{
     }
 })
 
+constDel = document.querySelector('#delete');
+constDel.addEventListener('click', ()=>{
+    
+    if(output.value[output.value.length -1] == '.'){
+        output.value = output.value.slice(0,-1);
+        allowDecimal = true;
+    }
+    else{
+        output.value = output.value.slice(0,-1);
+    }
+})
+
 
 let allowDecimal = true;
 
